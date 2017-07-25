@@ -1,0 +1,4 @@
+author: HiddenKn
+delete-after: True
+changes: 
+  - rscadd: "Re-adds the Traffic Monitor Computer to the Telecomms Sattelite."
