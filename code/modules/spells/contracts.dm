@@ -5,7 +5,7 @@
 	icon_state = "master_open"
 
 	var/contract_master = null
-	var/list/contract_spells = list(/spell/contract/reward,/spell/contract/punish,/spell/contract/return_master)
+	var/list/contract_spells = list(/spell/contract/reward,/spell/contract/punish,/spell/contract/call_slave)
 
 /obj/item/weapon/contract/attack_self(mob/user as mob)
 	if(contract_master == null)
